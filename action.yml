@@ -1,6 +1,9 @@
-name: 'Selene'
+name: 'selene-linter'
 description: 'GitHub action to run Selene, a blazing-fast modern Lua linter written in Rust'
 author: 'NTBBloodbath'
+branding:
+  icon: check-circle
+  color: blue
 inputs:
   token:
     description: 'The GITHUB_SECRET token'
